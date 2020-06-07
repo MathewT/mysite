@@ -12,14 +12,9 @@ relativeURLs = true
     url = "/about/"
 
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    
-  [[menu.main]]
-    identifier = "foo"
-    name = "Foo"
-    url = "/foo/"
+    identifier = "login"
+    name = "Login"
+    url = "/login/"
     
     
 

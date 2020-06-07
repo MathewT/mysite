@@ -5,6 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
+  <!-- {{printf "file is **%s**\n" .File}} 
+  {{printf "RelPermalink is **%s**\n" .RelPermalink}} 
+  {{ if (eq .File "about.md") }}
+    <link rel="stylesheet" href="/css/login.css">
+  {{ end }} -->
+  
+  {{if (eq .RelPermalink "/login/")}}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="/css/login.css">
+  {{end}}
 
   {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
