@@ -6,6 +6,11 @@ theme = "mybootstraptheme"
 relativeURLs = true
 
 [menu]
+  # [[menu.main]]
+  #   identifier = "home"
+  #   name = "Home"
+  #   url = "/"
+    
   [[menu.main]]
     identifier = "about"
     name = "About"
