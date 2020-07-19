@@ -1,7 +1,8 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My Bootstrappy Site"
-theme = "mybootstraptheme"
+# theme = "mybootstraptheme"
+theme = "silk-roads-hugo-theme"
 
 relativeURLs = true
 

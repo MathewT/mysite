@@ -1,0 +1,3 @@
+[submodule "themes/silk-roads-hugo-theme"]
+	path = themes/silk-roads-hugo-theme
+	url = git@github.com:MathewT/silk-roads-hugo-theme.git
